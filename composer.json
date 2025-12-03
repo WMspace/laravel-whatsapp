@@ -1,6 +1,6 @@
 {
-    "name": "wordmagiccms/laravel-whatsapp",
-    "description": "A Whatsapp Business Cloud API wrapper for Laravel.",
+    "name": "wmspace/laravel-whatsapp",
+    "description": "Fork: A Whatsapp Business Cloud API wrapper for Laravel.",
     "keywords": [
         "laravel",
         "whatsapp",
@@ -12,13 +12,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MissaelAnda\\Whatsapp\\": "src/"
+            "WMspace\\Whatsapp\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Missael H. Anda",
-            "email": "missael.anda@gmail.com"
+            "name": "Wlodz Mur",
+            "email": "wm@wmcms.eu"
         }
     ],
     "require": {
@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MissaelAnda\\Whatsapp\\WhatsappServiceProvider"
+                "WMspace\\Whatsapp\\WhatsappServiceProvider"
             ],
             "aliases": {
-                "Whatsapp": "MissaelAnda\\Whatsapp\\Facade\\Whatsapp"
+                "Whatsapp": "WMspace\\Whatsapp\\Facade\\Whatsapp"
             }
         }
     }
